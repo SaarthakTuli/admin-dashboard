@@ -116,6 +116,8 @@ const Ecommerce = () => {
 
           {/* Revenue updates Main Details... */}
           <div className='mt-10 flex gap-10 flex-wrap justify-center'>
+
+            {/* Left Side... */}
             <div className='border-r-1 border-color m-4 pr-10'>
 
               {/* Budget card... */}
@@ -144,11 +146,12 @@ const Ecommerce = () => {
               </div>
 
 
+              {/* Sparkline Component... */}
               <div className='mt-5'>
                 <SparkLine
                   currentColor='blue'
                   id='line-sparkline'
-                  type='line'
+                  type='Line'
                   height='80px'
                   width='250px'
                   data={SparklineAreaData}
@@ -156,6 +159,25 @@ const Ecommerce = () => {
                 />
               </div>
 
+              <div className='mt-10'>
+                <Button
+                  color='white'
+                  bgColor='blue'
+                  text='Download Report'
+                  borderRadius='10px'
+                />
+
+              </div>
+
+            </div>
+
+
+            {/* Right Side... */}
+            <div>
+              <Stacked
+                width='320px'
+                height='360px'
+              />
             </div>
 
           </div>
