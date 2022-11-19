@@ -1,6 +1,6 @@
-<h1>A React Dashboard Web Ap</h1>
+<h1>A React Dashboard Web App</h1>
 
-<h3>A Complete Dashboard app used to make you a Power user</h3>
+<h3>A Complete Dashboard app used to make you a Power user, You can customize the theme and it is also responsive</h3>
 <br />
 
 <!-- <img
